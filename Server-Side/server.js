@@ -53,7 +53,6 @@ app.post(["/welcome.html"], (request, response) => {
     }
 })
 
-app.listen(port, () => console.log(`Server started, watching files at [ http://localhost:${port}/ ]`));
 
 
 function getDataObject(data) {
@@ -72,6 +71,6 @@ function saveJsonFile(fs, obj) {
 }
 
 
-
+const server = app.listen(port, () => console.log(`Server started, watching files at [ http://localhost:${port}/ ]`));
 
 

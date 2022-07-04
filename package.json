@@ -1,5 +1,26 @@
 {
   "dependencies": {
-    "express": "^4.18.1"
-  }
+    "express": "^4.18.1",
+    "request": "^2.88.2"
+  },
+  "name": "nodejs-express-form",
+  "description": "A simple input form using nodejs and express.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "jasmine": "^4.2.1"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radwaymn/nodejs-express-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radwaymn/nodejs-express-form/issues"
+  },
+  "homepage": "https://github.com/radwaymn/nodejs-express-form#readme"
 }
